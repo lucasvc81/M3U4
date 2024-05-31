@@ -8,3 +8,7 @@ var alumnos = [
     {nombre: 'Raul Sanchez', nota: 7 },
     {nombre: 'Sandra Figueroa', nota: 8 }
   ];
+
+  var aprobados = alumnos.filter(alumnos => alumnos.nota >= 7);
+
+  console.log(aprobados)
