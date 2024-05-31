@@ -1,0 +1,17 @@
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.cuadrado.red {
+    background: red;
+}
+
+.cuadrado.blue {
+    background: lightblue;
+}
+
+.cuadrado.green {
+    background: lightgreen;
+}
